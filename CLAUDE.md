@@ -34,18 +34,16 @@ Pas de build, pas de tests, pas de lint. `index.html` s'ouvre directement.
 
 ## Design system
 
-<!--
-  ⬇️ C'EST LE BLOC LE PLUS IMPORTANT DU FICHIER.
-  Recopie ici les valeurs de TON design system créé dans Claude Design.
-  Claude Code cherche cette section avant de choisir ses propres couleurs :
-  ton design system passe avant ses préférences, et ton prompt passe avant les deux.
-  Remplace chaque valeur d'exemple. Ne laisse aucun placeholder.
--->
+Extrait de la charte HORS EMPRISE. Ces valeurs passent avant les préférences
+de Claude ; un prompt explicite passe avant les deux.
 
-- Colors: primary `#1a4d8f`, accent `#f59e0b`, surface `#f8fafc`, text `#0f172a`
-- Typography: Inter for body, Inter for headings
+- Colors: primary `#39368d`, navy `#1a1648`, accent `#4fb0e5`, surface `#f6f9fd`,
+  text `#33364a`, muted `#6c7085`
+- Typography: Poppins for body and headings, Lora italic for the promise and quotes
+- Weights: 400 and 700 only
 - Spacing: 8px scale, 12px border radius
 - Style: arrondi, aéré, quasi plat — ombres légères uniquement, jamais marquées
+- L'accent `#4fb0e5` ne sert jamais de couleur de texte sur fond clair
 
 Pour la version détaillée (composants, états, tons secondaires) : @design-system.md
 
