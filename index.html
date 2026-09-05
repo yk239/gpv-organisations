@@ -5,6 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Just Tlah — la retraite Giovanni's Positive Vibes</title>
 <meta name="description" content="Just Tlah, la retraite Giovanni's Positive Vibes. Trois jours en petit groupe, du 9 au 11 octobre 2026, et un vol réel en parapente biplace lorsque les conditions le permettent.">
+<link rel="canonical" href="https://yk239.github.io/gpv-organisations/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Giovanni's Positive Vibes">
+<meta property="og:title" content="Just Tlah — retraite du 9 au 11 octobre 2026">
+<meta property="og:description" content="Tlah — lance-toi. Trois jours en petit groupe, 11 places, et un vol réel en parapente biplace lorsque les conditions le permettent.">
+<meta property="og:url" content="https://yk239.github.io/gpv-organisations/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Just Tlah — retraite du 9 au 11 octobre 2026">
+<meta name="twitter:description" content="Tlah — lance-toi. Trois jours en petit groupe, 11 places, et un vol réel en parapente biplace lorsque les conditions le permettent.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -66,6 +76,20 @@
     color: #ffffff;
     padding: 96px 0;
   }
+  .anchors { display: flex; flex-wrap: wrap; gap: 0 24px; margin-bottom: 48px; }
+  .anchors a {
+    color: var(--surface-accent); text-decoration: none;
+    display: inline-block; padding: 12px 0; font-size: 15px;
+    border-bottom: 2px solid transparent;
+  }
+  .anchors a:hover { border-bottom-color: var(--accent); }
+
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { transition-duration: 1ms !important; }
+  }
+
   #accueil .brand {
     font-size: 14px;
     font-weight: 700;
@@ -145,6 +169,7 @@
     .facts > div { flex-direction: column; gap: 4px; }
     .card { padding: 24px; }
     #accueil .cta { margin-top: 32px; }
+    .anchors { gap: 0 16px; margin-bottom: 24px; }
     .btn { display: block; text-align: center; }
     /* Regle du CLAUDE.md : aucun texte sous 15px a 375px.
        Elle prime sur les 14px de legende du design system. */
@@ -157,6 +182,12 @@
 
 <header id="accueil">
   <div class="wrap">
+    <nav class="anchors" aria-label="Sections de la page">
+      <a href="#le-parcours">Le parcours</a>
+      <a href="#le-vol">Le vol</a>
+      <a href="#pratique">En pratique</a>
+      <a href="#contact">Contact</a>
+    </nav>
     <p class="brand">Giovanni's Positive Vibes · La retraite</p>
     <h1>Just Tlah</h1>
     <p class="lead">Tlah — lance-toi.</p>
@@ -278,7 +309,7 @@
       <div><dt>Durée</dt><dd>3 jours, 2 nuits</dd></div>
       <div><dt>Format</dt><dd>Retraite immersive en petit groupe</dd></div>
       <div><dt>Lieu</dt><dd>[LIEU À PRÉCISER]</dd></div>
-      <div><dt>Places</dt><dd>[NOMBRE DE PLACES À PRÉCISER]</dd></div>
+      <div><dt>Places</dt><dd>11 maximum</dd></div>
       <div><dt>Tarif</dt><dd>[TARIF À PRÉCISER]</dd></div>
       <div><dt>Inscription</dt><dd>Sur échange préalable</dd></div>
       <div><dt>Encadrement du vol</dt><dd>Professionnels du vol</dd></div>

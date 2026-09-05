@@ -31,9 +31,13 @@ L'offre corporate de GPV n'est pas sur ce site.
   bloc PUBLIABLE ou CONFIDENTIEL et chaque citation OUI / NON / À DEMANDER :
   respecter ces marquages.
 - Ne jamais publier un fait marqué `[INCONNU]` en le comblant. Placeholder majuscules.
-- Les tarifs (3 500 / 4 000 DHS), le lieu (Marrakech) et la capacité (11 places)
-  viennent d'éditions antérieures et **ne sont pas confirmés** pour cette session.
-  Ne pas les publier tant qu'ils ne le sont pas.
+- Le nom de la retraite est **Just Tlah**, orthographié ainsi. Les éditions
+  passées nommées « Relève-toi » (ou « Just Tla7 ») étaient les versions d'essai
+  des modules : ne plus employer ces noms.
+- Confirmé pour l'édition du 9 au 11 octobre 2026 : 3 jours, 2 nuits, 11 places
+  maximum.
+- Non confirmés, donc non publiables : les tarifs (3 500 / 4 000 DHS) et le lieu
+  (Marrakech), qui viennent d'éditions antérieures.
 
 ## Formulations interdites
 
