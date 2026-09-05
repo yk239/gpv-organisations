@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Giovanni's Positive Vibes — accompagnement des organisations</title>
-<meta name="description" content="Formations, accompagnement d'équipes et team building pour dirigeants, DRH et managers. Comprendre ce qui bloque, renforcer ce qui relie.">
+<title>Just Tlah — la retraite Giovanni's Positive Vibes</title>
+<meta name="description" content="Just Tlah, la retraite GPV. Tlah veut dire lance-toi : un saut préparé, pas un saut à l'aveugle. Préparation, vol en parapente, intégration.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -93,7 +93,19 @@
   .card p + p { margin-top: 16px; }
   .card .meta { font-size: 14px; color: var(--muted); }
 
+  .section-intro { margin-top: 16px; max-width: 52ch; color: var(--muted); }
+  .card .step {
+    font-size: 14px; font-weight: 700; letter-spacing: .1em;
+    color: var(--primary); margin-bottom: 8px;
+  }
+
   #pour-qui { background: var(--surface-accent); }
+
+  .facts { margin: 48px 0 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px 64px; }
+  .facts > div { display: flex; gap: 16px; padding: 16px 0; border-top: 1px solid #dfe3ee; }
+  .facts dt { font-weight: 700; min-width: 11ch; }
+  .facts dd { margin: 0; color: var(--muted); }
+  .note { margin-top: 32px; max-width: 62ch; color: var(--muted); font-size: 15px; }
   .audience { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px 64px; margin-top: 48px; }
   .audience h3 { font-size: 17px; margin-bottom: 8px; }
 
@@ -112,13 +124,14 @@
     #accueil h1 { font-size: 32px; }
     h2 { font-size: 24px; }
     .lead, #accueil .lead { font-size: 18px; }
-    .cards, .audience { grid-template-columns: 1fr; gap: 16px; margin-top: 32px; }
+    .cards, .audience, .facts { grid-template-columns: 1fr; gap: 16px; margin-top: 32px; }
+    .facts > div { flex-direction: column; gap: 4px; }
     .card { padding: 24px; }
     #accueil .cta { margin-top: 32px; }
     .btn { display: block; text-align: center; }
     /* Regle du CLAUDE.md : aucun texte sous 15px a 375px.
        Elle prime sur les 14px de legende du design system. */
-    #accueil .brand, #accueil .cta-note, .card .meta, footer { font-size: 15px; }
+    #accueil .brand, #accueil .cta-note, .card .step, footer { font-size: 15px; }
   }
 </style>
 </head>
@@ -126,53 +139,57 @@
 
 <header id="accueil">
   <div class="wrap">
-    <p class="brand">Giovanni's Positive Vibes · Organisations</p>
-    <h1>Comprendre ce qui bloque, renforcer ce qui relie.</h1>
+    <p class="brand">Giovanni's Positive Vibes · La retraite</p>
+    <h1>Just Tlah</h1>
     <p class="lead">
-      Formations, accompagnement d'équipes et expériences collectives pour
-      remettre en mouvement ce qui doit changer dans votre organisation.
+      <em>Tlah</em>, en marocain, veut dire « lance-toi ». Une retraite construite
+      autour d'un saut préparé — jamais d'un saut à l'aveugle.
     </p>
     <div class="cta">
-      <a class="btn" href="mailto:yk@gpvconsulting.com">Écrire à GPV</a>
-      <span class="cta-note">Réponse sous [DÉLAI DE RÉPONSE À PRÉCISER]</span>
+      <a class="btn" href="mailto:yk@gpvconsulting.com?subject=Just%20Tlah%20—%20demande%20d'informations">Demander les prochaines dates</a>
+      <span class="cta-note">Prochaine session : [DATES À PRÉCISER]</span>
     </div>
   </div>
 </header>
 
 <main>
 
-<section id="expertises">
+<section id="experience">
   <div class="wrap">
-    <h2>Ce que nous faisons</h2>
+    <h2>Les trois temps</h2>
+    <p class="section-intro">
+      Le vol ne tient pas tout seul. Ce qui le précède et ce qui le suit comptent
+      autant que lui.
+    </p>
     <div class="cards">
 
       <article class="card">
-        <h3>Formations et ateliers</h3>
+        <p class="step">01</p>
+        <h3>Préparer</h3>
         <p>
-          Leadership, communication assertive, gestion de conflits. Des formats
-          courts et concrets, construits autour de situations que vos équipes
-          vivent réellement.
+          Travail du souffle, gestion du stress, visualisation. On apprend à
+          reconnaître ce que fait le corps quand il a peur, avant d'aller le
+          vérifier en altitude.
         </p>
-        <p class="meta">De 2 heures à plusieurs jours.</p>
       </article>
 
       <article class="card">
-        <h3>Accompagnement d'équipes</h3>
+        <p class="step">02</p>
+        <h3>Sauter</h3>
         <p>
-          Traverser une réorganisation, restaurer la coopération après un
-          conflit, remettre du lien là où les relations se sont figées.
+          Un vol en parapente biplace, encadré par des professionnels certifiés.
+          L'objectif n'est pas la sensation forte : c'est de faire une fois, pour
+          de vrai, ce que l'on croyait ne pas pouvoir faire.
         </p>
-        <p class="meta">Sur la durée, au rythme de l'équipe.</p>
       </article>
 
       <article class="card">
-        <h3>Team building</h3>
+        <p class="step">03</p>
+        <h3>Intégrer</h3>
         <p>
-          Des expériences encadrées qui déplacent le groupe hors de son cadre
-          habituel, dont des vols en parapente biplace, puis un temps de
-          reprise pour en tirer ce qui sert au quotidien.
+          Un temps collectif après la descente. Sans ce retour, il ne reste qu'un
+          souvenir ; avec lui, il reste quelque chose de transposable au quotidien.
         </p>
-        <p class="meta">Encadrement professionnel.</p>
       </article>
 
     </div>
@@ -181,36 +198,73 @@
 
 <section id="pour-qui">
   <div class="wrap">
-    <h2>Pour qui</h2>
+    <h2>Ce que vous venez y travailler</h2>
     <div class="audience">
       <div>
-        <h3>Dirigeants</h3>
-        <p>Ceux qui portent une décision difficile et veulent la rendre tenable pour leurs équipes.</p>
+        <h3>Cesser de négocier avec la peur</h3>
+        <p>
+          L'objectif n'est pas de ne plus avoir peur. C'est d'arrêter de laisser
+          la peur décider à votre place.
+        </p>
       </div>
       <div>
-        <h3>DRH</h3>
-        <p>Ceux qui voient monter les tensions et cherchent autre chose qu'un séminaire de plus.</p>
+        <h3>Une preuve, pas un encouragement</h3>
+        <p>
+          Ce qui installe la confiance, ce n'est pas qu'on vous dise que vous en
+          êtes capable. C'est de l'avoir fait.
+        </p>
       </div>
       <div>
-        <h3>Managers</h3>
-        <p>Ceux qui doivent tenir un cap sans avoir la main sur tout ce qui se joue dans l'équipe.</p>
+        <h3>Relire ce que dit le corps</h3>
+        <p>
+          Cœur qui s'emballe, souffle court : la peur et la préparation à l'action
+          ont la même signature. Apprendre à la relire, cela se travaille.
+        </p>
       </div>
       <div>
-        <h3>Équipes en transformation</h3>
-        <p>Celles à qui l'on demande de changer de façon de travailler, et pas seulement d'outil.</p>
+        <h3>Le silence, et le groupe</h3>
+        <p>
+          On traverse la même chose, le même jour, ensemble. C'est ce qui reste
+          longtemps après que la sensation est retombée.
+        </p>
       </div>
     </div>
   </div>
 </section>
 
+<section id="pratique">
+  <div class="wrap">
+    <h2>En pratique</h2>
+    <dl class="facts">
+      <div><dt>Durée</dt><dd>[DURÉE À PRÉCISER]</dd></div>
+      <div><dt>Lieu</dt><dd>[LIEU À PRÉCISER]</dd></div>
+      <div><dt>Groupe</dt><dd>[NOMBRE DE PLACES À PRÉCISER]</dd></div>
+      <div><dt>Tarif</dt><dd>[TARIF À PRÉCISER]</dd></div>
+      <div><dt>Encadrement</dt><dd>Professionnels certifiés pour le vol</dd></div>
+      <div><dt>Prochaines dates</dt><dd>[DATES À PRÉCISER]</dd></div>
+    </dl>
+    <p class="note">
+      Voler n'est pas obligatoire. On peut faire la retraite entière sans décoller,
+      et rien dans le déroulé ne le rend visible ou embarrassant. Certaines
+      conditions de santé contre-indiquent le vol : nous les passons en revue
+      avec vous avant l'inscription, pas le jour même.
+    </p>
+    <p class="note">
+      Just Tlah n'est pas un soin. Ce n'est ni une thérapie, ni un traitement de
+      l'anxiété ou du trauma, et cela ne remplace aucun suivi médical ou
+      psychologique en cours.
+    </p>
+  </div>
+</section>
+
 <section id="contact">
   <div class="wrap">
-    <h2>Parlons de votre situation.</h2>
+    <h2>Écrivez-nous avant de décider.</h2>
     <p>
-      Décrivez en quelques lignes ce qui coince aujourd'hui dans votre organisation.
-      Nous verrons ensemble si une intervention a du sens, et laquelle.
+      Dites en quelques lignes où vous en êtes et ce que vous venez chercher.
+      Nous vous répondons avec les dates, le déroulé complet et les conditions.
     </p>
-    <a class="btn" href="mailto:yk@gpvconsulting.com">yk@gpvconsulting.com</a>
+    <a class="btn" href="mailto:yk@gpvconsulting.com?subject=Just%20Tlah%20—%20demande%20d'informations">yk@gpvconsulting.com</a>
   </div>
 </section>
 
@@ -218,7 +272,8 @@
 
 <footer>
   <div class="wrap">
-    Giovanni's Positive Vibes — [MENTIONS LÉGALES À AJOUTER] ·
+    Just Tlah — une retraite Giovanni's Positive Vibes ·
+    [MENTIONS LÉGALES À AJOUTER] ·
     <a href="mailto:yk@gpvconsulting.com">yk@gpvconsulting.com</a>
   </div>
 </footer>

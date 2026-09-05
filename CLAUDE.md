@@ -8,12 +8,30 @@ C'est la mémoire du projet. Tout ce qui est écrit ici, tu n'auras pas à le r�
 Un site vitrine d'une seule page, statique, pour présenter mon activité.
 Il est publié sur GitHub Pages depuis la branche `main`, dossier racine.
 
-- Public visé : dirigeants, DRH et managers d'organisations en transformation.
-  Pas les particuliers : c'est la branche organisations de GPV.
+Ce site présente **Just Tlah**, la retraite GPV. *Tlah* veut dire « lance-toi ».
+L'offre corporate de GPV n'est pas sur ce site.
+
+- Public visé : des particuliers adultes qui envisagent un temps de rupture.
+  Pas les organisations, pas les DRH.
 - Ce que le visiteur doit faire en arrivant : écrire à yk@gpvconsulting.com.
   Lien `mailto:`, pas de formulaire, pas d'outil de prise de RDV externe.
-- Ton de voix : professionnel, bienveillant, structuré. Concret plutôt que théorique :
-  on nomme le blocage et l'action, on évite le jargon du développement personnel.
+- Ton de voix : direct et incarné, sobre sur les promesses. On nomme la peur
+  sans la dramatiser, on évite le jargon du développement personnel.
+  Le site vouvoie. (Choix par défaut, à confirmer : « Tlah » tutoie.)
+
+## Sources et confidentialité
+
+- Le manuscrit `La montagne où je suis né une deuxième fois` est marqué
+  **NON PARTAGEABLE CONFIDENTIEL**. Ne jamais en recopier une phrase sur le site
+  sans autorisation explicite, demandée à ce moment-là.
+- La brochure GPV (company profile) est commerciale, donc publiable.
+
+## Ce que ce site ne promet pas
+
+- Ce n'est pas une thérapie d'exposition. Aucune promesse sur les phobies,
+  l'anxiété ou le trauma : terrain clinique, hors périmètre.
+- Aucune transformation garantie. Décrire ce qui est proposé, pas ce qui adviendra.
+- Le refus de voler doit rester possible et sans coût social. Le dire sur la page.
 
 ## Structure du dépôt
 
