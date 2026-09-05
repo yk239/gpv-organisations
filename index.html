@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Just Tlah — la retraite Giovanni's Positive Vibes</title>
-<meta name="description" content="Just Tlah, la retraite GPV. Tlah veut dire lance-toi : un saut préparé, pas un saut à l'aveugle. Préparation, vol en parapente, intégration.">
+<meta name="description" content="Just Tlah, la retraite Giovanni's Positive Vibes. Trois jours en petit groupe, du 9 au 11 octobre 2026, et un vol réel en parapente biplace lorsque les conditions le permettent.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -106,6 +106,23 @@
   .facts dt { font-weight: 700; min-width: 11ch; }
   .facts dd { margin: 0; color: var(--muted); }
   .note { margin-top: 32px; max-width: 62ch; color: var(--muted); font-size: 15px; }
+  .body-wide { margin-top: 24px; max-width: 62ch; }
+  .body-wide + .body-wide { margin-top: 16px; }
+  #accueil .hero-sub { margin: 16px 0 0; max-width: 46ch; color: var(--surface-accent); }
+
+  .tags { list-style: none; margin: 48px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+  .tags li {
+    background: #ffffff; border-radius: 8px; padding: 8px 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
+  }
+
+  #le-vol { background: var(--surface); }
+  #qui-anime { background: var(--surface-accent); }
+  #limites { background: var(--surface); }
+
+  #contact .channels { font-size: 15px; margin-top: 32px; }
+  #contact .channels a { color: #ffffff; display: inline-block; padding: 13px 0; }
+  #contact .channels { line-height: 1.4; }
   .audience { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px 64px; margin-top: 48px; }
   .audience h3 { font-size: 17px; margin-bottom: 8px; }
 
@@ -131,7 +148,8 @@
     .btn { display: block; text-align: center; }
     /* Regle du CLAUDE.md : aucun texte sous 15px a 375px.
        Elle prime sur les 14px de legende du design system. */
-    #accueil .brand, #accueil .cta-note, .card .step, footer { font-size: 15px; }
+    #accueil .brand, #accueil .cta-note, footer,
+    #contact .channels, .note { font-size: 15px; }
   }
 </style>
 </head>
@@ -141,94 +159,114 @@
   <div class="wrap">
     <p class="brand">Giovanni's Positive Vibes · La retraite</p>
     <h1>Just Tlah</h1>
-    <p class="lead">
-      <em>Tlah</em>, en marocain, veut dire « lance-toi ». Une retraite construite
-      autour d'un saut préparé — jamais d'un saut à l'aveugle.
+    <p class="lead">Tlah — lance-toi.</p>
+    <p class="hero-sub">
+      Trois jours en petit groupe, du travail intérieur, et un vol réel en
+      parapente biplace lorsque les conditions le permettent.
     </p>
     <div class="cta">
-      <a class="btn" href="mailto:yk@gpvconsulting.com?subject=Just%20Tlah%20—%20demande%20d'informations">Demander les prochaines dates</a>
-      <span class="cta-note">Prochaine session : du 9 au 11 octobre 2026</span>
+      <a class="btn" href="mailto:yk@gpvconsulting.com?subject=Just%20Tlah%20—%20demande%20d'informations">Demander les informations</a>
+      <span class="cta-note">Du 9 au 11 octobre 2026 · 3 jours, 2 nuits</span>
     </div>
   </div>
 </header>
 
 <main>
 
-<section id="experience">
+<section id="le-parcours">
   <div class="wrap">
-    <h2>Les trois temps</h2>
+    <h2>Ce que tu y fais</h2>
     <p class="section-intro">
-      Le vol ne tient pas tout seul. Ce qui le précède et ce qui le suit comptent
-      autant que lui.
+      Une retraite de plusieurs jours, en petit groupe, construite autour d'un
+      passage à l'action.
     </p>
-    <div class="cards">
+    <ul class="tags">
+      <li>Ateliers</li>
+      <li>Pratiques guidées</li>
+      <li>Hypnose collective selon le programme</li>
+      <li>Travail systémique</li>
+      <li>Exercices psychocorporels</li>
+      <li>Méditation ou silence</li>
+      <li>Cercles de partage</li>
+      <li>Rituels symboliques</li>
+      <li>Temps d'intégration</li>
+      <li>Vol en parapente biplace</li>
+    </ul>
+    <p class="note">
+      Le déroulé heure par heure des trois jours t'est communiqué avant
+      l'inscription, avec le programme définitif de l'édition.
+    </p>
+  </div>
+</section>
 
-      <article class="card">
-        <p class="step">01</p>
-        <h3>Préparer</h3>
+<section id="le-vol">
+  <div class="wrap">
+    <h2>Le vol</h2>
+    <div class="audience">
+      <div>
+        <h3>Il est réel</h3>
         <p>
-          Travail du souffle, gestion du stress, visualisation. On apprend à
-          reconnaître ce que fait le corps quand il a peur, avant d'aller le
-          vérifier en altitude.
+          Un vol en parapente biplace, encadré par des professionnels du vol.
+          Ce n'est pas une image ni une métaphore : tu décolles.
         </p>
-      </article>
-
-      <article class="card">
-        <p class="step">02</p>
-        <h3>Sauter</h3>
+      </div>
+      <div>
+        <h3>Il n'est pas garanti</h3>
         <p>
-          Un vol en parapente biplace, encadré par des professionnels certifiés.
-          L'objectif n'est pas la sensation forte : c'est de faire une fois, pour
-          de vrai, ce que l'on croyait ne pas pouvoir faire.
+          Le vol dépend de la sécurité, de la météo et des conditions physiques
+          et logistiques du jour. Il peut ne pas avoir lieu, et la retraite se
+          tient quand même.
         </p>
-      </article>
-
-      <article class="card">
-        <p class="step">03</p>
-        <h3>Intégrer</h3>
+      </div>
+      <div>
+        <h3>Il dépend de ton accord</h3>
         <p>
-          Un temps collectif après la descente. Sans ce retour, il ne reste qu'un
-          souvenir ; avec lui, il reste quelque chose de transposable au quotidien.
+          Personne ne décolle sans y consentir, le jour même. Tu restes libre de
+          ta décision jusqu'au dernier moment.
         </p>
-      </article>
-
+      </div>
+      <div>
+        <h3>Il est préparé</h3>
+        <p>
+          Le vol n'arrive pas seul : un travail le précède, un temps
+          d'intégration le suit. C'est ce qui en fait autre chose qu'une
+          sensation forte.
+        </p>
+      </div>
     </div>
   </div>
 </section>
 
 <section id="pour-qui">
   <div class="wrap">
-    <h2>Ce que vous venez y travailler</h2>
-    <div class="audience">
-      <div>
-        <h3>Cesser de négocier avec la peur</h3>
-        <p>
-          L'objectif n'est pas de ne plus avoir peur. C'est d'arrêter de laisser
-          la peur décider à votre place.
-        </p>
-      </div>
-      <div>
-        <h3>Une preuve, pas un encouragement</h3>
-        <p>
-          Ce qui installe la confiance, ce n'est pas qu'on vous dise que vous en
-          êtes capable. C'est de l'avoir fait.
-        </p>
-      </div>
-      <div>
-        <h3>Relire ce que dit le corps</h3>
-        <p>
-          Cœur qui s'emballe, souffle court : la peur et la préparation à l'action
-          ont la même signature. Apprendre à la relire, cela se travaille.
-        </p>
-      </div>
-      <div>
-        <h3>Le silence, et le groupe</h3>
-        <p>
-          On traverse la même chose, le même jour, ensemble. C'est ce qui reste
-          longtemps après que la sensation est retombée.
-        </p>
-      </div>
-    </div>
+    <h2>Pour qui</h2>
+    <p class="section-intro">
+      Un petit groupe de personnes engagées dans une démarche de résilience, de
+      dépassement de soi et de passage à l'action.
+    </p>
+    <p class="body-wide">
+      Souvent, une période de rupture. Une peur qui dure. Une confiance entamée.
+      Ou simplement le besoin de marquer une transition autrement qu'en se le
+      promettant.
+    </p>
+    <p class="note">
+      Les participants sont sélectionnés et informés avant la retraite : un
+      échange précède toute inscription.
+    </p>
+  </div>
+</section>
+
+<section id="qui-anime">
+  <div class="wrap">
+    <h2>Qui anime</h2>
+    <p class="body-wide">
+      <strong>Yassine Kettani</strong>, fondateur de Giovanni's Positive Vibes
+      depuis 2023. Ingénieur diplômé de l'ESTP en 2009, plus de dix-sept ans en
+      bâtiment, assistance à maîtrise d'ouvrage, planification et coordination
+      de projets, en France, au Maroc et en Arabie saoudite. Formé à l'hypnose
+      auprès de l'ARCHE, ainsi qu'aux constellations systémiques,
+      à l'accompagnement et aux soft skills.
+    </p>
   </div>
 </section>
 
@@ -236,35 +274,46 @@
   <div class="wrap">
     <h2>En pratique</h2>
     <dl class="facts">
-      <div><dt>Durée</dt><dd>[DURÉE À PRÉCISER]</dd></div>
+      <div><dt>Dates</dt><dd>Du vendredi 9 au dimanche 11 octobre 2026</dd></div>
+      <div><dt>Durée</dt><dd>3 jours, 2 nuits</dd></div>
+      <div><dt>Format</dt><dd>Retraite immersive en petit groupe</dd></div>
       <div><dt>Lieu</dt><dd>[LIEU À PRÉCISER]</dd></div>
-      <div><dt>Groupe</dt><dd>[NOMBRE DE PLACES À PRÉCISER]</dd></div>
+      <div><dt>Places</dt><dd>[NOMBRE DE PLACES À PRÉCISER]</dd></div>
       <div><dt>Tarif</dt><dd>[TARIF À PRÉCISER]</dd></div>
-      <div><dt>Encadrement</dt><dd>Professionnels certifiés pour le vol</dd></div>
-      <div><dt>Prochaines dates</dt><dd>Du 9 au 11 octobre 2026</dd></div>
+      <div><dt>Inscription</dt><dd>Sur échange préalable</dd></div>
+      <div><dt>Encadrement du vol</dt><dd>Professionnels du vol</dd></div>
     </dl>
-    <p class="note">
-      Voler n'est pas obligatoire. On peut faire la retraite entière sans décoller,
-      et rien dans le déroulé ne le rend visible ou embarrassant. Certaines
-      conditions de santé contre-indiquent le vol : nous les passons en revue
-      avec vous avant l'inscription, pas le jour même.
+  </div>
+</section>
+
+<section id="limites">
+  <div class="wrap">
+    <h2>Ce que Just Tlah n'est pas</h2>
+    <p class="body-wide">
+      Just Tlah est une expérience immersive. Ce n'est pas une thérapie, pas un
+      soin, pas un traitement, et cela ne remplace aucune prise en charge
+      médicale, psychiatrique ou psychologique.
     </p>
-    <p class="note">
-      Just Tlah n'est pas un soin. Ce n'est ni une thérapie, ni un traitement de
-      l'anxiété ou du trauma, et cela ne remplace aucun suivi médical ou
-      psychologique en cours.
+    <p class="body-wide">
+      Aucune transformation n'est promise. On te décrit ce qui est proposé, pas
+      ce qui va t'arriver.
     </p>
   </div>
 </section>
 
 <section id="contact">
   <div class="wrap">
-    <h2>Écrivez-nous avant de décider.</h2>
+    <h2>Écris avant de décider.</h2>
     <p>
-      Dites en quelques lignes où vous en êtes et ce que vous venez chercher.
-      Nous vous répondons avec les dates, le déroulé complet et les conditions.
+      Dis en quelques lignes où tu en es et ce que tu viens chercher. Tu reçois
+      en retour le programme complet, le lieu, le tarif et les conditions.
     </p>
     <a class="btn" href="mailto:yk@gpvconsulting.com?subject=Just%20Tlah%20—%20demande%20d'informations">yk@gpvconsulting.com</a>
+    <p class="channels">
+      WhatsApp <a href="https://wa.me/212776686312">+212 7 76 68 63 12</a> ·
+      Instagram <a href="https://instagram.com/wearegiovanni">@wearegiovanni</a> ·
+      <a href="https://www.giovannispositivevibes.com">giovannispositivevibes.com</a>
+    </p>
   </div>
 </section>
 

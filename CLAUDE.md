@@ -15,23 +15,45 @@ L'offre corporate de GPV n'est pas sur ce site.
   Pas les organisations, pas les DRH.
 - Ce que le visiteur doit faire en arrivant : écrire à yk@gpvconsulting.com.
   Lien `mailto:`, pas de formulaire, pas d'outil de prise de RDV externe.
-- Ton de voix : direct et incarné, sobre sur les promesses. On nomme la peur
-  sans la dramatiser, on évite le jargon du développement personnel.
-  Le site vouvoie. (Choix par défaut, à confirmer : « Tlah » tutoie.)
+- Ton de voix : **le site tutoie.** Sobre, direct, concret, ancré dans
+  l'expérience. Pas de superlatif, pas de promesse spectaculaire, pas de
+  remplissage. Le symbolique est permis s'il reste explicite et distinct
+  d'une affirmation médicale ou scientifique.
 
 ## Sources et confidentialité
 
 - Le manuscrit `La montagne où je suis né une deuxième fois` est marqué
   **NON PARTAGEABLE CONFIDENTIEL**. Ne jamais en recopier une phrase sur le site
   sans autorisation explicite, demandée à ce moment-là.
-- La brochure GPV (company profile) est commerciale, donc publiable.
+- Le `Company Profile 2026` porte la mention **« Document stratégique
+  confidentiel »**. Il sert de source d'information, pas de source de copie.
+- Le `Dossier Source IA` fait autorité sur les faits Just Tlah. Il marque chaque
+  bloc PUBLIABLE ou CONFIDENTIEL et chaque citation OUI / NON / À DEMANDER :
+  respecter ces marquages.
+- Ne jamais publier un fait marqué `[INCONNU]` en le comblant. Placeholder majuscules.
+- Les tarifs (3 500 / 4 000 DHS), le lieu (Marrakech) et la capacité (11 places)
+  viennent d'éditions antérieures et **ne sont pas confirmés** pour cette session.
+  Ne pas les publier tant qu'ils ne le sont pas.
+
+## Formulations interdites
+
+Elles sont bannies par la direction de marque, ne jamais les écrire :
+
+- « transformation garantie », « guérison »
+- « aérothérapie » présentée comme une catégorie ou un soin
+- « coach certifié ICF » tant que le niveau et la preuve ne sont pas vérifiés
+- « les neurosciences prouvent que… » sans source précise
+- toute promesse fondée sur une « fréquence vibratoire » présentée comme un fait
 
 ## Ce que ce site ne promet pas
 
 - Ce n'est pas une thérapie d'exposition. Aucune promesse sur les phobies,
   l'anxiété ou le trauma : terrain clinique, hors périmètre.
 - Aucune transformation garantie. Décrire ce qui est proposé, pas ce qui adviendra.
-- Le refus de voler doit rester possible et sans coût social. Le dire sur la page.
+- Le vol dépend du consentement du participant, de la sécurité, de la météo et
+  des conditions physiques et logistiques. Il n'est pas garanti : le dire.
+- L'alternative concrète offerte à qui refuse de voler le jour même n'est pas
+  documentée. Ne rien affirmer à ce sujet tant qu'elle ne l'est pas.
 
 ## Structure du dépôt
 
