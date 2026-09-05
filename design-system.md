@@ -4,8 +4,8 @@
 > Il est donc chargé au démarrage de chaque session, au même titre que le CLAUDE.md.
 > Garde-le court : tout ce qui est ici consomme du contexte à chaque session.
 >
-> Source : la charte des documents HORS EMPRISE (dossier de diffusion et CGV),
-> dont les couleurs et les polices ont été extraites directement.
+> Source : la charte GPV, extraite des documents HORS EMPRISE (dossier de
+> diffusion et CGV). Elle vaut pour toutes les branches, dont celle-ci.
 
 ## Couleurs
 

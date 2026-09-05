@@ -3,33 +3,225 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Page de départ</title>
+<title>Giovanni's Positive Vibes — accompagnement des organisations</title>
+<meta name="description" content="Formations, accompagnement d'équipes et team building pour dirigeants, DRH et managers. Comprendre ce qui bloque, renforcer ce qui relie.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 <style>
+  :root {
+    --primary: #39368d;
+    --primary-dark: #302d7e;
+    --navy: #1a1648;
+    --accent: #4fb0e5;
+    --surface: #f6f9fd;
+    --surface-accent: #eaf5fd;
+    --text: #33364a;
+    --muted: #6c7085;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
   body {
     margin: 0;
-    min-height: 100vh;
-    display: grid;
-    place-items: center;
-    font-family: system-ui, -apple-system, sans-serif;
+    font-family: Poppins, system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--text);
     background: #ffffff;
-    color: #111111;
+    -webkit-text-size-adjust: 100%;
   }
-  main { max-width: 34rem; padding: 2rem; }
-  h1 { font-size: 1.5rem; margin: 0 0 1rem; }
-  p { line-height: 1.6; margin: 0 0 .75rem; color: #444; }
-  code { background: #f1f1f1; padding: .15em .4em; border-radius: 4px; }
+
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  section { padding: 96px 0; }
+
+  h1, h2, h3 { line-height: 1.2; font-weight: 700; margin: 0; }
+  h2 { font-size: 32px; }
+  h3 { font-size: 21px; }
+  p { margin: 0; }
+
+  .lead { font-family: Lora, Georgia, serif; font-style: italic; font-size: 21px; line-height: 1.5; }
+
+  a { color: var(--primary); text-decoration: underline; text-decoration-thickness: 1px; }
+  a:hover { text-decoration-thickness: 3px; }
+
+  .btn {
+    display: inline-block;
+    background: var(--primary);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 12px 24px;
+    min-height: 44px;
+    border-radius: 8px;
+    transition: background 150ms ease;
+  }
+  .btn:hover { background: var(--primary-dark); text-decoration: none; }
+
+  /* En-tete : seul endroit ou le degradé et l'accent cyan sont autorises */
+  #accueil {
+    background: linear-gradient(160deg, var(--navy), var(--primary));
+    color: #ffffff;
+    padding: 96px 0;
+  }
+  #accueil .brand {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 24px;
+  }
+  #accueil h1 { font-size: 48px; max-width: 15ch; }
+  #accueil .lead { margin: 24px 0 0; max-width: 46ch; color: #ffffff; }
+  #accueil .cta { margin-top: 48px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
+  #accueil .btn { background: #ffffff; color: var(--navy); }
+  #accueil .btn:hover { background: var(--surface-accent); }
+  #accueil .cta-note { font-size: 14px; color: var(--surface-accent); }
+
+  #expertises { background: var(--surface); }
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 48px; }
+  .card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 32px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
+  }
+  .card h3 { margin-bottom: 16px; }
+  .card p + p { margin-top: 16px; }
+  .card .meta { font-size: 14px; color: var(--muted); }
+
+  #pour-qui { background: var(--surface-accent); }
+  .audience { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px 64px; margin-top: 48px; }
+  .audience h3 { font-size: 17px; margin-bottom: 8px; }
+
+  #contact { background: var(--navy); color: #ffffff; }
+  #contact h2 { max-width: 20ch; }
+  #contact p { margin-top: 24px; max-width: 52ch; color: var(--surface-accent); }
+  #contact .btn { margin-top: 48px; background: #ffffff; color: var(--navy); }
+  #contact .btn:hover { background: var(--surface-accent); }
+
+  footer { padding: 32px 0; font-size: 14px; color: var(--muted); }
+  footer a { color: var(--primary); display: inline-block; padding: 11px 0; }
+
+  @media (max-width: 760px) {
+    section, #accueil { padding: 48px 0; }
+    .wrap { padding: 0 16px; }
+    #accueil h1 { font-size: 32px; }
+    h2 { font-size: 24px; }
+    .lead, #accueil .lead { font-size: 18px; }
+    .cards, .audience { grid-template-columns: 1fr; gap: 16px; margin-top: 32px; }
+    .card { padding: 24px; }
+    #accueil .cta { margin-top: 32px; }
+    .btn { display: block; text-align: center; }
+    /* Regle du CLAUDE.md : aucun texte sous 15px a 375px.
+       Elle prime sur les 14px de legende du design system. */
+    #accueil .brand, #accueil .cta-note, .card .meta, footer { font-size: 15px; }
+  }
 </style>
 </head>
 <body>
-  <main>
-    <h1>Cette page attend ton design system.</h1>
-    <p>
-      Elle est volontairement laide. C'est le point de départ : dans une heure,
-      elle portera tes couleurs, ta typographie et tes mots, et elle sera en ligne.
+
+<header id="accueil">
+  <div class="wrap">
+    <p class="brand">Giovanni's Positive Vibes · Organisations</p>
+    <h1>Comprendre ce qui bloque, renforcer ce qui relie.</h1>
+    <p class="lead">
+      Formations, accompagnement d'équipes et expériences collectives pour
+      remettre en mouvement ce qui doit changer dans votre organisation.
     </p>
+    <div class="cta">
+      <a class="btn" href="mailto:yk@gpvconsulting.com">Écrire à GPV</a>
+      <span class="cta-note">Réponse sous [DÉLAI DE RÉPONSE À PRÉCISER]</span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section id="expertises">
+  <div class="wrap">
+    <h2>Ce que nous faisons</h2>
+    <div class="cards">
+
+      <article class="card">
+        <h3>Formations et ateliers</h3>
+        <p>
+          Leadership, communication assertive, gestion de conflits. Des formats
+          courts et concrets, construits autour de situations que vos équipes
+          vivent réellement.
+        </p>
+        <p class="meta">De 2 heures à plusieurs jours.</p>
+      </article>
+
+      <article class="card">
+        <h3>Accompagnement d'équipes</h3>
+        <p>
+          Traverser une réorganisation, restaurer la coopération après un
+          conflit, remettre du lien là où les relations se sont figées.
+        </p>
+        <p class="meta">Sur la durée, au rythme de l'équipe.</p>
+      </article>
+
+      <article class="card">
+        <h3>Team building</h3>
+        <p>
+          Des expériences encadrées qui déplacent le groupe hors de son cadre
+          habituel, dont des vols en parapente biplace, puis un temps de
+          reprise pour en tirer ce qui sert au quotidien.
+        </p>
+        <p class="meta">Encadrement professionnel.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="pour-qui">
+  <div class="wrap">
+    <h2>Pour qui</h2>
+    <div class="audience">
+      <div>
+        <h3>Dirigeants</h3>
+        <p>Ceux qui portent une décision difficile et veulent la rendre tenable pour leurs équipes.</p>
+      </div>
+      <div>
+        <h3>DRH</h3>
+        <p>Ceux qui voient monter les tensions et cherchent autre chose qu'un séminaire de plus.</p>
+      </div>
+      <div>
+        <h3>Managers</h3>
+        <p>Ceux qui doivent tenir un cap sans avoir la main sur tout ce qui se joue dans l'équipe.</p>
+      </div>
+      <div>
+        <h3>Équipes en transformation</h3>
+        <p>Celles à qui l'on demande de changer de façon de travailler, et pas seulement d'outil.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <h2>Parlons de votre situation.</h2>
     <p>
-      Étape suivante : ouvre <code>PROMPTS.md</code> et suis l'itération 1.
+      Décrivez en quelques lignes ce qui coince aujourd'hui dans votre organisation.
+      Nous verrons ensemble si une intervention a du sens, et laquelle.
     </p>
-  </main>
+    <a class="btn" href="mailto:yk@gpvconsulting.com">yk@gpvconsulting.com</a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    Giovanni's Positive Vibes — [MENTIONS LÉGALES À AJOUTER] ·
+    <a href="mailto:yk@gpvconsulting.com">yk@gpvconsulting.com</a>
+  </div>
+</footer>
+
 </body>
 </html>
